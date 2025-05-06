@@ -1,20 +1,10 @@
-[tool.poetry]
+[project]
 name = "sutton-barto-programming"
 version = "0.1.0"
-description = ""
-authors = ["Javier <javier.smith.dlc@gmail.com>"]
+description = "Programming solutions to Sutton & Barto"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-jupyter = "^1.0.0"
-numpy = "^1.26.2"
-matplotlib = "^3.8.2"
-tqdm = "^4.66.1"
-scipy = "^1.11.4"
-seaborn = "^0.13.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.5",
+]
